@@ -25,6 +25,7 @@ docker pull hatamiarash7/gitlab-commit-counter
 ```bash
 docker run --rm -e "PROJECT_ID=13960749" -e "ACCESS_TOKEN=erplmkbnoihsdFgfalsdk" -e "BRANCH=master" hatamiarash7/gitlab-commit-counter
 ```
+---
 
 ## Support
 
