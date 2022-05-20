@@ -25,9 +25,12 @@ docker pull hatamiarash7/gitlab-commit-counter
 ```bash
 docker run --rm -e "PROJECT_ID=13960749" -e "ACCESS_TOKEN=erplmkbnoihsdFgfalsdk" -e "BRANCH=master" hatamiarash7/gitlab-commit-counter
 ```
+
 ---
 
 ## Support
+
+[![Donate with Bitcoin](https://en.cryptobadges.io/badge/micro/bc1qmmh6vt366yzjt3grjxjjqynrrxs3frun8gnxrz)](https://en.cryptobadges.io/donate/bc1qmmh6vt366yzjt3grjxjjqynrrxs3frun8gnxrz) [![Donate with Ethereum](https://en.cryptobadges.io/badge/micro/0x0831bD72Ea8904B38Be9D6185Da2f930d6078094)](https://en.cryptobadges.io/donate/0x0831bD72Ea8904B38Be9D6185Da2f930d6078094)
 
 [![ko-fi](https://www.ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/D1D1WGU9)
 
@@ -35,12 +38,14 @@ docker run --rm -e "PROJECT_ID=13960749" -e "ACCESS_TOKEN=erplmkbnoihsdFgfalsdk"
 
 ## Contributing
 
+Don't be shy and reach out to us if you want to contribute 😉
+
 1. Fork it !
 2. Create your feature branch : `git checkout -b my-new-feature`
 3. Commit your changes : `git commit -am 'Add some feature'`
 4. Push to the branch : `git push origin my-new-feature`
-5. Submit a pull request :D
+5. Submit a pull request
 
 ## Issues
 
-Each project may have many problems. Contributing to the better development of this project by reporting them.
+Each project may have many problems. Contributing to the better development of this project by reporting them. 👍
