@@ -52,7 +52,7 @@ jobs:
         with:
           verbose: true
           ignore: "DL3008,DL3025"
-          failure-threshold: "warning"
+          failure-threshold: "error"
 
   push:
     name: Deploy
