@@ -50,10 +50,9 @@ jobs:
       - name: Lint Docker files
         uses: hadolint/hadolint-action@v2.1.0
         with:
-          dockerfile: "Dockerfile"
-          recursive: true
           verbose: true
           ignore: "DL3008,DL3025"
+          failure-threshold: "warning"
 
   push:
     name: Deploy
