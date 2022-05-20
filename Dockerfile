@@ -14,6 +14,6 @@ WORKDIR /usr/local/share/
 
 COPY counter.py /usr/local/share/
 
-RUN python -m pip install requests
+RUN python -m pip install --no-cache-dir requests
 
 CMD ["python", "counter.py"]
