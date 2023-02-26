@@ -1,4 +1,4 @@
-FROM python:3.10.7-alpine
+FROM python:3.10.10-alpine
 
 ARG DATE_CREATED
 
