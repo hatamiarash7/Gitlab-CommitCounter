@@ -1,3 +1,4 @@
+""" Count commits for gitlab project """
 from os import environ
 import sys
 import requests
@@ -9,7 +10,7 @@ BRANCH = environ.get('BRANCH')
 
 # Check if any of the environment variables are missing and exit if so
 if (PROJECT_ID is None) or (ACCESS_TOKEN is None) or (BRANCH is None):
-    print("Missing environment variables. See https://github.com/hatamiarash7/Gitlab-CommitCounter for help.")
+    print("Missing variables. Check https://github.com/hatamiarash7/Gitlab-CommitCounter.")
     sys.exit(0)
 
 # Construct the API URL using the environment variables
@@ -28,9 +29,9 @@ try:
     else:
         # If the value is None, something went wrong
         print("Something is wrong !!")
-        print("Check environment variables. See https://github.com/hatamiarash7/Gitlab-CommitCounter for help.")
-except Exception as e:
+        print("Check variables. See https://github.com/hatamiarash7/Gitlab-CommitCounter.")
+except Exception as e:  # pylint: disable=broad-except
     # Catch any exceptions and print an error message with the exception details
     print("Something is wrong !!")
-    print("Missing environment variables. See https://github.com/hatamiarash7/Gitlab-CommitCounter for help.")
+    print("Check variables. See https://github.com/hatamiarash7/Gitlab-CommitCounter.")
     print(f"Exception: {str(e)}")
