@@ -1,4 +1,4 @@
-FROM python:3.10.7-alpine
+FROM python:3.10.10-alpine
 
 ARG DATE_CREATED
 
@@ -14,6 +14,6 @@ WORKDIR /usr/local/share/
 
 COPY counter.py /usr/local/share/
 
-RUN python -m pip install --no-cache-dir requests
+RUN python -m pip install --no-cache-dir requests==2.28.2
 
 CMD ["python", "counter.py"]
